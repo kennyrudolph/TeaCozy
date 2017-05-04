@@ -5,6 +5,7 @@ body {
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
+	margin: 0px auto;
 }
 
 				/* header layout & style */
@@ -15,4 +16,15 @@ header {
 a {
 	font-size: 22px;
 	color: seashell;
+}
+
+				/* mission section layout and style */
+.mission {
+	background-image: url("../images/mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+}
+
+.text {
+	background-color: black;
 }
