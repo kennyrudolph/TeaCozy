@@ -1,8 +1,18 @@
 body {
-	font-family: Helvetica, sans-serif;
+	font-family: Helvetica;
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
+}
+
+				/* header layout & style */
+header {
+	border-bottom: 1px solid seashell;
+}
+
+a {
+	font-size: 22px;
+	color: seashell;
 }
