@@ -1,11 +1,19 @@
 body {
+	background-color: black;
 	font-family: Helvetica;
 	font-size: 22px;
 	color: seashell;
-	background-color: black;
-	opacity: 0.9;
+	
+	width: 1200px;
 	text-align: center;
 	margin: 0px auto;
+	opacity: 0.9;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 				/* header layout & style */
@@ -27,11 +35,14 @@ a {
 
 .text {
 	background-color: black;
+	width: 100%;
+	margin: auto;
 }
 
 				/* feature teas titles and image layout */
 .featured {
 	width: 1000px;
+	margin: 0px auto;
 }
 
 .item {
@@ -60,7 +71,6 @@ a {
 
 .address {
 	background-color: black;
-	border: 1px solid white;
 	width: 300px;
 	margin: 5px 20px;
 	opacity: 1;
