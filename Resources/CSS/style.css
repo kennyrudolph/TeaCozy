@@ -28,3 +28,26 @@ a {
 .text {
 	background-color: black;
 }
+
+				/* feature teas titles and image layout */
+.featured {
+	width: 1000px;
+}
+
+.item {
+	padding: 5px;
+}
+
+.item img {
+	display: block;
+	height: 200px;
+	width: 300px;
+	padding: 5px;
+}
+
+.item span {
+	display: block;
+	padding: 5px;
+	text-align: center;
+}
+
