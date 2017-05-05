@@ -51,3 +51,18 @@ a {
 	text-align: center;
 }
 
+				/* locations section and addresses */
+.locations {
+	background-image: url("../images/locations-background.jpg");
+	height: 500px;
+}
+
+
+.address {
+	background-color: black;
+	border: 1px solid white;
+	width: 300px;
+	margin: 5px 20px;
+	opacity: 1;
+} 
+
