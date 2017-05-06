@@ -4,7 +4,6 @@ body {
 	font-size: 22px;
 	color: seashell;
 	
-	width: 1200px;
 	text-align: center;
 	margin: 0px auto;
 	opacity: 0.9;
@@ -18,7 +17,28 @@ body {
 
 				/* header layout & style */
 header {
+	background-color: black;
 	border-bottom: 1px solid seashell;
+
+	height: 69px;
+	width: 100%;
+  position: fixed;
+  z-index: 10;
+
+	display: flex;
+	align-items: center;
+}
+
+header img {
+	height: 50px;
+	padding-left: 10px;
+	justify-content: space-between;
+}
+
+header nav {
+	flex-grow: 1;
+	padding-right: 10px;
+	text-align:	right;
 }
 
 a {
@@ -27,10 +47,12 @@ a {
 }
 
 				/* mission section layout and style */
-.mission {
+#mission {
 	background-image: url("../images/mission-background.jpg");
 	height: 700px;
 	width: 1200px;
+	padding-top: 70px;
+	margin: 0px auto;
 }
 
 .text {
@@ -40,8 +62,10 @@ a {
 }
 
 				/* feature teas titles and image layout */
-.featured {
+#featured {
 	width: 1000px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 	margin: 0px auto;
 }
 
@@ -63,9 +87,12 @@ a {
 }
 
 				/* locations section and addresses */
-.locations {
+#locations {
 	background-image: url("../images/locations-background.jpg");
 	height: 500px;
+	width: 1200px;
+	padding-top: 70px;
+	margin: 0px auto;
 }
 
 
